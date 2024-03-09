@@ -62,7 +62,7 @@ font: 400 1.125rem/0.83 "poppins", sans-serif;
 font: 400 1rem/2 "poppins", sans-serif;
 }
 .font-1-s {
-font: 400 1rem/0.83 "poppins", sans-serif;  
+font: 400 1rem/1.2 "poppins", sans-serif;  
 }    
 
 /* Componentes */
@@ -246,14 +246,39 @@ padding-bottom: 47px;
 .galeria p {
 padding-bottom: 24px;
 }
-.galeria .galeria-container{
-width: 350px;
-height: 232px;
-object-fit: conver;
+.galeria .galeria-container {
 display: flex;
 flex-wrap: wrap;
-flex-direction: row;
 justify-content: center;
 align-items: center;
+padding-bottom: 104px;
+}
+.galeria .galeria-container img{
+width: 350px;
+height: 232px;
+object-fit: cover;
 padding: 2.5px;
+}
+@media (max-width: 600px) {
+.galeria .galeria-container img{
+width: 280px;
+height: 162px;
+}
+}
+
+/* Rodape */
+.rodape-bg {
+background: var(--cor-p1);
+}
+.rodape {
+width: 100%;
+height: 61px;
+}
+.rodape p {
+height: 61px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+text-align: center;
 }
