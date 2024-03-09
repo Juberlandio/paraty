@@ -29,7 +29,7 @@ width: 7px;
 background-color: rgb(35, 38, 41);
 }
 ::-webkit-scrollbar-thumb {
-background-color: var(--cor-p2);
+background-color: var(--cor-p1);
 border-radius: 30px;
 }
 ::-webkit-scrollbar-track {
@@ -53,7 +53,7 @@ font: 700 5rem/0.83 "poppins", sans-serif;
 font: 600 2.18rem/0.83 "poppins", sans-serif;
 }
 .font-1-m {
-font: 600 2rem/0.83 "poppins", sans-serif;
+font: 600 2rem/1.2 "poppins", sans-serif;
 }
 .font-1-mp {
 font: 400 1.125rem/0.83 "poppins", sans-serif;
@@ -228,12 +228,14 @@ align-items: center;
 list-style: none;
 }
 .sobre p::first-letter{
-  font-weight: bold;
+font-weight: bold;
 }
 .sobre .pontos li + li{
 padding-top: 18px;
 }
 .sobre .pontos li img {
+width: 20px;
+height: 20px;
 padding: 0px;
 margin-right: 10px;
 }
