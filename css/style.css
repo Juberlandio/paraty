@@ -177,7 +177,7 @@ justify-content: center;
 .introducao-bg {
 width: 100%;
 height: 335px;
-background-image: url(../img/bg-estacao.png);
+background-image: url('../img/bg-estacao.png');
 position: relative;
 }
 .introducao {
