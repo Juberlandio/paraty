@@ -156,6 +156,7 @@ padding: 10px;
 .cabecalho img {
 width: 149px;
 height: 69px;
+padding-bottom: 15px;
 }
 .cabecalho .menu {
 display: flex;
@@ -164,8 +165,11 @@ justify-content: center;
 align-items: center;
 list-style: none;
 }
-.cabecalho .menu li {
-padding: 20px;
+.menu li {
+padding: 24px 10px;
+}
+.menu li a{
+padding: 24px 10px;
 }
 @media (max-width: 600px) {
 .cabecalho {
