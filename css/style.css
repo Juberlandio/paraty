@@ -58,9 +58,6 @@ font: 600 2rem/1.2 "poppins", sans-serif;
 .font-1-mp {
 font: 400 1.125rem/0.83 "poppins", sans-serif;
 }
-.font-1-l {
-font: 400 1rem/2 "poppins", sans-serif;
-}
 .font-1-s {
 font: 400 1rem/1.2 "poppins", sans-serif;  
 }    
@@ -218,6 +215,9 @@ padding-bottom: 47px;
 .sobre img {
 padding-bottom: 48px;
 }
+.sobre p {
+line-height: 2;
+}
 .sobre p + p {
 padding-top: 22px;
 }
@@ -230,6 +230,9 @@ flex-direction: row;
 justify-content: flex-start;
 align-items: center;
 list-style: none;
+}
+.sobre .pontos p {
+  line-height: 2;
 }
 .sobre p::first-letter{
 font-weight: bold;
@@ -254,6 +257,7 @@ padding-bottom: 47px;
 }
 .galeria p {
 padding-bottom: 24px;
+line-height: 2;
 }
 .galeria .galeria-container {
 display: flex;
